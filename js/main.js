@@ -3,6 +3,7 @@ AOS.init({
  	easing: 'ease',
  	once: true,
  	offset: -100
+	
 });
 
 jQuery(function($) {
@@ -24,6 +25,8 @@ jQuery(function($) {
 	animateReveal();
 
 });
+
+
 
 var siteIstotope = function() {
 	var $container = $('#posts').isotope({
