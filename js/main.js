@@ -1,9 +1,14 @@
+
+
+
 AOS.init({
  	duration: 800,
  	easing: 'ease',
  	once: true,
  	offset: -100
 	
+	
+
 });
 
 jQuery(function($) {
@@ -23,10 +28,9 @@ jQuery(function($) {
 	contactForm();
 	stickyFillPlugin();
 	animateReveal();
+	
 
 });
-
-
 
 var siteIstotope = function() {
 	var $container = $('#posts').isotope({
